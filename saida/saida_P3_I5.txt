@@ -1,0 +1,125 @@
+################################################### 
+Número de Processos: 3 
+Imagens a serem processadas: 
+images/montage1
+images/montage2
+images/montage3
+images/montage4
+images/montage5
+################################################### 
+
+[1]Processando a Imagem images/montage1.jpg
+Resolução: 8454 x 8454 pixels
+
+[2]Processando a Imagem images/montage2.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage3.jpg
+Resolução: 16000 x 10000 pixels
+
+[2]Processando a Imagem images/montage4.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage5.jpg
+Resolução: 380 x 254 pixels
+TEMPO PARALELO[14.084777] - Imagens Processadas[5].
+################################################### 
+Número de Processos: 3 
+Imagens a serem processadas: 
+images/montage1
+images/montage2
+images/montage3
+images/montage4
+images/montage5
+################################################### 
+
+[1]Processando a Imagem images/montage1.jpg
+Resolução: 8454 x 8454 pixels
+
+[2]Processando a Imagem images/montage2.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage3.jpg
+Resolução: 16000 x 10000 pixels
+
+[2]Processando a Imagem images/montage4.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage5.jpg
+Resolução: 380 x 254 pixels
+TEMPO PARALELO[17.885175] - Imagens Processadas[5].
+################################################### 
+Número de Processos: 3 
+Imagens a serem processadas: 
+images/montage1
+images/montage2
+images/montage3
+images/montage4
+images/montage5
+################################################### 
+
+[1]Processando a Imagem images/montage1.jpg
+
+[2]Processando a Imagem images/montage2.jpg
+Resolução: 8454 x 8454 pixels
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage3.jpg
+Resolução: 16000 x 10000 pixels
+
+[2]Processando a Imagem images/montage4.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage5.jpg
+Resolução: 380 x 254 pixels
+TEMPO PARALELO[16.179645] - Imagens Processadas[5].
+################################################### 
+Número de Processos: 3 
+Imagens a serem processadas: 
+images/montage1
+images/montage2
+images/montage3
+images/montage4
+images/montage5
+################################################### 
+
+[2]Processando a Imagem images/montage2.jpg
+
+[1]Processando a Imagem images/montage1.jpg
+Resolução: 20480 x 8704 pixels
+Resolução: 8454 x 8454 pixels
+
+[1]Processando a Imagem images/montage3.jpg
+Resolução: 16000 x 10000 pixels
+
+[2]Processando a Imagem images/montage4.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage5.jpg
+Resolução: 380 x 254 pixels
+TEMPO PARALELO[16.126057] - Imagens Processadas[5].
+################################################### 
+Número de Processos: 3 
+Imagens a serem processadas: 
+images/montage1
+images/montage2
+images/montage3
+images/montage4
+images/montage5
+################################################### 
+
+[1]Processando a Imagem images/montage1.jpg
+
+[2]Processando a Imagem images/montage2.jpg
+Resolução: 8454 x 8454 pixels
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage3.jpg
+Resolução: 16000 x 10000 pixels
+
+[2]Processando a Imagem images/montage4.jpg
+Resolução: 20480 x 8704 pixels
+
+[1]Processando a Imagem images/montage5.jpg
+Resolução: 380 x 254 pixels
+TEMPO PARALELO[16.258733] - Imagens Processadas[5].
