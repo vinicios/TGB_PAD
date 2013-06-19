@@ -189,7 +189,7 @@ int main(int argc, char **argv) {
             int x;
             for (x = 1; x < controle; x++) {
                 MPI_Send(&x, 1, MPI_INT, x, tag, MPI_COMM_WORLD); //tamanho do array
-                printf("[%d]Enviei [%s] para %d\n", myrank, nomeArquivosJPG[x], x);
+                //printf("[%d]Enviei [%s] para %d\n", myrank, nomeArquivosJPG[x], x);
                 imagensRestantes--;
                 //printf("Imagens Restantes: %d\n", imagensRestantes);
             }
@@ -198,11 +198,11 @@ int main(int argc, char **argv) {
             int proxima = controle;
             while (imagensRestantes != 0) {
                 MPI_Recv(&retorno, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-                printf("Recebi do processo %d \n", status.MPI_SOURCE);
+                //printf("Recebi do processo %d \n", status.MPI_SOURCE);
                 imagensProcessadas++;
                 destino = status.MPI_SOURCE;
                 MPI_Send(&proxima, 1, MPI_INT, status.MPI_SOURCE, tag, MPI_COMM_WORLD); //tamanho do array
-                printf("WHILE[%d]Enviei proxima[%d] para %d\n", myrank, proxima, status.MPI_SOURCE);
+                //printf("WHILE[%d]Enviei proxima[%d] para %d\n", myrank, proxima, status.MPI_SOURCE);
                 proxima++;
                 imagensRestantes--;
             }
@@ -211,12 +211,12 @@ int main(int argc, char **argv) {
             int recebido = 0;
             for (x = 1; x < controle; x++) {
                 MPI_Recv(&recebido, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &status);
-                printf("FOR Recebi do processo %d \n", status.MPI_SOURCE);
+                //printf("FOR Recebi do processo %d \n", status.MPI_SOURCE);
                 imagensProcessadas++;
                 //envia código para finalizar os escravos (-1)
                 int dados = -1;
                 MPI_Send(&dados, 1, MPI_INT, status.MPI_SOURCE, tag, MPI_COMM_WORLD); //finalizacao
-                printf("FINALIZANDO... [%d] \n", status.MPI_SOURCE);
+                //printf("FINALIZANDO... [%d] \n", status.MPI_SOURCE);
             }
             fim = MPI_Wtime();
             printf("TEMPO PARALELO[%f] - Imagens Processadas[%d].\n", fim - inicio, imagensProcessadas);
